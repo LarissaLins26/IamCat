@@ -10,7 +10,7 @@ app.post('/user',(req, res) => {
 });
 
 app.put('/user/:id', (req, res) =>{
-    res.send('Incluir nova adoção');
+    res.send('Incluir nova adoção ${req.params.id');
 });
 
 app.delete('/user/:id',(req, res )=>{
